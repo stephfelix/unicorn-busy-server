@@ -213,7 +213,7 @@ def apiSwitch():
 	elif red == 179 and green == 0 and blue == 0:
 		globalStatus = 'Busy'
 	else:
-		globalStatus = None
+		globalStatus = 'on'
 
 	brightness = content.get('brightness', None)
 	speed = content.get('speed', None)

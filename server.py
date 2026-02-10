@@ -315,9 +315,9 @@ def not_found(error):
 
 def startupRainbow():
 	global blinkThread
-	blinkThread = threading.Thread(target=displayRainbow, args=(1, 0.1, 1))
-	blinkThread.do_run = True
-	blinkThread.start()
+#	blinkThread = threading.Thread(target=displayRainbow, args=(1, 0.1, 1))
+#	blinkThread.do_run = True
+#	blinkThread.start()
 
 
 if __name__ == '__main__':
